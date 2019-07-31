@@ -21,5 +21,6 @@ Some useful commands -> See the images : docker images
                         remove container : docker rm -f container-id
                         remove image : docker rmi image-id
                         see the port of the container : docker port container-id
+                        log into docker container : docker exec -it 4e8ed086b2c3 bash
                         
 ```
