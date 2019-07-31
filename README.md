@@ -7,7 +7,7 @@ For run this first we have to buid this project and run the container then we ca
 ## Here are the commands that we have to run on terminal :
 
 - docker build . -t new_docker
-- docker run -it -p 8080:80 -d new_docker mysite
+- docker run -it -p 8080:80 -d --name mysite new_docker
 
 
 
